@@ -11,6 +11,9 @@
 		FAA087DA2C81F05500D5DF79 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA087D92C81F05500D5DF79 /* ContentView.swift */; };
 		FAA087DC2C81F05600D5DF79 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FAA087DB2C81F05600D5DF79 /* Assets.xcassets */; };
 		FAA087DF2C81F05600D5DF79 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FAA087DE2C81F05600D5DF79 /* Preview Assets.xcassets */; };
+		FAA087E62C81F09E00D5DF79 /* Contact.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA087E52C81F09E00D5DF79 /* Contact.swift */; };
+		FAA087E82C81F0CA00D5DF79 /* ChatListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA087E72C81F0CA00D5DF79 /* ChatListView.swift */; };
+		FAA087EA2C81F0E700D5DF79 /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA087E92C81F0E700D5DF79 /* HeaderView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +22,9 @@
 		FAA087D92C81F05500D5DF79 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		FAA087DB2C81F05600D5DF79 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FAA087DE2C81F05600D5DF79 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		FAA087E52C81F09E00D5DF79 /* Contact.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Contact.swift; sourceTree = "<group>"; };
+		FAA087E72C81F0CA00D5DF79 /* ChatListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatListView.swift; sourceTree = "<group>"; };
+		FAA087E92C81F0E700D5DF79 /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,8 +57,11 @@
 		FAA087D62C81F05500D5DF79 /* WhatsAppScreenTest */ = {
 			isa = PBXGroup;
 			children = (
+				FAA087E72C81F0CA00D5DF79 /* ChatListView.swift */,
+				FAA087E52C81F09E00D5DF79 /* Contact.swift */,
 				FAA087D72C81F05500D5DF79 /* WhatsAppScreenTestApp.swift */,
 				FAA087D92C81F05500D5DF79 /* ContentView.swift */,
+				FAA087E92C81F0E700D5DF79 /* HeaderView.swift */,
 				FAA087DB2C81F05600D5DF79 /* Assets.xcassets */,
 				FAA087DD2C81F05600D5DF79 /* Preview Content */,
 			);
@@ -137,6 +146,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FAA087EA2C81F0E700D5DF79 /* HeaderView.swift in Sources */,
+				FAA087E82C81F0CA00D5DF79 /* ChatListView.swift in Sources */,
+				FAA087E62C81F09E00D5DF79 /* Contact.swift in Sources */,
 				FAA087DA2C81F05500D5DF79 /* ContentView.swift in Sources */,
 				FAA087D82C81F05500D5DF79 /* WhatsAppScreenTestApp.swift in Sources */,
 			);
